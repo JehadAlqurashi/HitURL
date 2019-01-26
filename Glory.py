@@ -11,10 +11,11 @@ print(colored("""
  #   #    #    #   #  #       ## # 
   ###    ###    ###   #          # 
                              #   # 
-                              ###
+                              ###  Version:0.3
 ""","cyan"))
 print(colored("""
-    C0ded By Red Virus & Ahlam
+    C0ded By Red Virus
+    Designed by Ahlam
 
 
 
@@ -22,6 +23,7 @@ print(colored("""
 print(colored("1: Get Ip Site","yellow"))
 print(colored("2: Get Your Ip","yellow"))
 print(colored("3: Find admin panel","yellow"))
+print(colored("4: Find Shell","yellow"))
 x = input(">>> ")
 if x == "1":
     print(colored("// Example: google.com","yellow"))
@@ -43,5 +45,21 @@ elif x == "3":
         except:
             print(colored("[-]Not Found","red"))
             print(colored(Nurl,"red"))   
+            
+elif x =="4":
+    print(colored("// Example: https://www.google.com","yellow"))
+    url =  input("Enter Site >>> ")
+    lists = ['Navir.php','wso.php','Wso.php','c99','wso2018.php','alfa.php','1337w0rm.php','r57.php','1.php','2.php','3.php','4.php','Alfa.php','CGI.pl','K2ll33d','adminer.php','cwo.pl','3turr.php','Indoxploit.php','shell.php','Hack.php']
+    for i in lists:
+        Nurl = url+"/"+i
+        try:
+            request.urlopen(Nurl)
+            print(colored("[+]Found","green"))
+            print(colored(Nurl,"green"))
+            break
+        except:
+            print(colored("[-]Not Found","red"))
+            print(colored(Nurl,"red"))  
+    
 else:
     print("Try Again")
