@@ -1,6 +1,6 @@
 # Glory-Project
 
-Get Ip Server And Find Admin panel
+Get Ip Server And Find Admin panel And search for the shell
 
 
 ### Version: 0.3
