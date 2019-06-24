@@ -1,25 +1,23 @@
 from socket import gethostname,gethostbyname
 from urllib import request
 from termcolor import colored
+import time
 print(colored("""
+    _       _           _         _____ _           _           
+   / \   __| |_ __ ___ (_)_ __   |  ___(_)_ __   __| | ___ _ __ 
+  / _ \ / _` | '_ ` _ \| | '_ \  | |_  | | '_ \ / _` |/ _ \ '__|
+ / ___ \ (_| | | | | | | | | | | |  _| | | | | | (_| |  __/ |   
+/_/   \_\__,_|_| |_| |_|_|_| |_| |_|   |_|_| |_|\__,_|\___|_| version:0.4
 
-  ###    ##                        
- #   #    #                        
- #        #     ###   # ##   #   # 
- #        #    #   #  ##  #  #   # 
- #  ##    #    #   #  #      #  ## 
- #   #    #    #   #  #       ## # 
-  ###    ###    ###   #          # 
-                             #   # 
-                              ###  Version:0.3
 ""","cyan"))
 print(colored("""
     C0ded By Red Virus
     Designed by Ahlam
-
-
-
 ""","red"))
+print("Please wait")
+time.sleep(3)
+print("Starting !")
+time.sleep(3)
 print(colored("1: Get Ip Site","yellow"))
 print(colored("2: Get Your Ip","yellow"))
 print(colored("3: Find admin panel","yellow"))
