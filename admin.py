@@ -11,7 +11,6 @@ print("""
 """)
 print("""\x1b[32m
     C0ded By Red Virus
-    Designed by Ahlam
 """)
 print("\x1b[32mPlease wait ...")
 time.sleep(3)
