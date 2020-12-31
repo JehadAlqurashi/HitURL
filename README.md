@@ -9,8 +9,8 @@ apt install python3-pip
 
 <h1>Installation:</h1>
 <pre>
-git clone https://github.com/RedVirus0/BlackDir-Framework.git
+git clone https://github.com/RedVirus0/Admin-Finder.git
 cd BlackDir
 pip3 install -r requirements.txt
-python3 BlackDir.py
+python3 AdminFinder.py
 </pre>
