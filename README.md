@@ -1,4 +1,4 @@
-# <center>Admin-Finder</center>
+<h1 align="center">Admin-Finder</h1>
 
 Tool For Find Admin Panel using threads
 <h1>Install python3 on linux</h1>
