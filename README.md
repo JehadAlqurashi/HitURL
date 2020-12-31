@@ -1,7 +1,16 @@
-# Admin-Finder
+# <center>Admin-Finder</center>
 
-Get Ip Server And Find Admin panel And search for the shell
+Tool For Find Admin Panel using threads
+<h1>Install python3 on linux</h1>
+<pre>
+apt update
+apt install python3-pip
+</pre>
 
-
-### Version: 0.4
-
+<h1>Installation:</h1>
+<pre>
+git clone https://github.com/RedVirus0/BlackDir-Framework.git
+cd BlackDir
+pip3 install -r requirements.txt
+python3 BlackDir.py
+</pre>
