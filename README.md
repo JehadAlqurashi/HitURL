@@ -10,7 +10,7 @@ apt install python3-pip
 <h1>Installation:</h1>
 <pre>
 git clone https://github.com/RedVirus0/Admin-Finder.git
-cd BlackDir
+cd Admin-Finder
 pip3 install -r requirements.txt
 python3 AdminFinder.py
 </pre>
