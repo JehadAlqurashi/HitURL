@@ -31,11 +31,8 @@ args = parser.parse_args()
 url = args.t
 if url !=None:
     with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        result = executor.map(findPanel,[url]*100)
-        concurrent.futures.wait(results, timeout=10, return_when=concurrent.futures.FIRST_COMPLETED)
-        for f in concurrent.futures.as_completed(results):
-            f_success = f.result()
-            if not f_success:
-                executor.shutdown(wait=False, cancel_futures=True) # shutdown if one fails
+        executor.map(findPanel,[url]*100)
+        executor.shutdown(wait=False)
+       
 else:
     logo()
