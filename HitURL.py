@@ -32,7 +32,7 @@ url = args.t
 if url !=None:
     with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
         executor.map(findPanel,[url]*100)
-        executor.shutdown(wait=False)
+        executor.shutdown(wait=True)
        
 else:
     logo()
